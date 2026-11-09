@@ -39,3 +39,15 @@ Use Material 3 as a design-system reference. Apply project-specific visual rules
 - [Worked example](07-report/example.md)
 - [Source register](08-sources/sources.md)
 - [Reusable prompt for ChatGPT or Codex](09-codex/run-audit.md)
+
+## Run the audit skill in Codex
+
+Open a checkout of this repository as the Codex workspace. The [PANTIK UX Audit skill](.agents/skills/pantik-ux-audit/SKILL.md) is in the project skill directory. In a different workspace, copy the entire `pantik-ux-audit` folder into that project's `.agents/skills/` directory. The skill can read the canonical knowledge base when there is no local copy of the checklist.
+
+Invoke it in one message after opening the workspace:
+
+```text
+$pantik-ux-audit Audit https://pantikdesign.pages.dev/ using Simba's journey from first visit to prepared contact message. Write the report in Polish.
+```
+
+For a live website, give the agent a browser with screenshot capability. The report distinguishes observed behavior from checks that require missing access or tools.
