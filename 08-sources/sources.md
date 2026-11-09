@@ -24,3 +24,31 @@ Sources were reviewed on November 9, 2026 for the original checklist. Check the 
 - [Material Components for iOS](https://github.com/material-components/material-components-ios) was archived at the review date. Consult Apple HIG for iOS platform patterns.
 
 Additional references include the [Material 3 overview](https://m3.material.io/) and [Figma component properties](https://help.figma.com/hc/en-us/articles/5579474826519-Explore-component-properties).
+
+## Material implementation references
+
+Use the component documentation for the dependency version in the audited build. The checks describe observable behavior. Each platform may expose a different implementation API.
+
+| Code | Source |
+| --- | --- |
+| MW | [Material Web Quick Start](https://material-web.dev/about/quick-start/) |
+| MWT | [Material Web Theming](https://material-web.dev/theming/material-theming/) |
+| MWF | [Material Web Text Field](https://material-web.dev/components/text-field/) |
+| MWS | [Material Web Select](https://material-web.dev/components/select/) |
+| MWD | [Material Web Dialog](https://material-web.dev/components/dialog/) |
+| MWB | [Material Web Buttons](https://material-web.dev/components/button/) |
+| MWI | [Material Web Icon Buttons](https://material-web.dev/components/icon-button/) |
+| MWR | [Material Web repository](https://github.com/material-components/material-web) |
+| MDA | [MDC Android getting started](https://github.com/material-components/material-components-android/blob/master/docs/getting-started.md) |
+| MDAF | [MDC Android Text Field](https://github.com/material-components/material-components-android/blob/master/docs/components/TextField.md) |
+| MDAS | [MDC Android Bottom Sheet](https://github.com/material-components/material-components-android/blob/master/docs/components/BottomSheet.md) |
+| C3 | [Material 3 in Compose](https://developer.android.com/develop/ui/compose/designsystems/material3) |
+| CIN | [Compose window insets](https://developer.android.com/develop/ui/compose/system/insets) |
+| CAT | [Compose accessibility testing](https://developer.android.com/develop/ui/compose/accessibility/testing) |
+| MDI | [MDC iOS repository](https://github.com/material-components/material-components-ios) |
+| MDIF | [MDC iOS Text Controls](https://github.com/material-components/material-components-ios/blob/develop/components/TextControls/README.md) |
+| MDIT | [MDC iOS Typography](https://github.com/material-components/material-components-ios/blob/develop/components/Typography/README.md) |
+| IA | [Apple accessibility modifiers](https://developer.apple.com/documentation/swiftui/view-accessibility) |
+| IT | [Apple Dynamic Type and custom fonts](https://developer.apple.com/documentation/swiftui/applying-custom-fonts-to-text) |
+| IIN | [Apple Accessibility Inspector](https://developer.apple.com/documentation/accessibility/accessibility-inspector) |
+| IRM | [Apple accessibilityReduceMotion](https://developer.apple.com/documentation/swiftui/environmentvalues/accessibilityreducemotion) |

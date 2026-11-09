@@ -1,12 +1,12 @@
 # PANTIK UI/UX Knowledge Base
 
-A reusable audit checklist for websites, native apps, and Figma designs. Each of the 55 checks has a stable ID, a test method, a suggested fix, and a reference. The IDs match the original PANTIK checklist.
+A reusable audit checklist for websites, native apps, and Figma designs. Each of the 77 checks has a stable ID, a test method, a suggested fix, and a reference. The original 55 checks keep their IDs. The 22 Material implementation checks use the MAT prefix.
 
 ## Run an audit
 
 1. Copy [Audit-Checklist.csv](Audit-Checklist.csv) and open the copy in a spreadsheet editor. Import it as UTF-8 with a comma delimiter if it opens in one column.
 2. Record the build or design version, platform, locale, and main user journey. For a portfolio, try going from the home page to a project and then to the contact action.
-3. Select checks marked **All** and checks for the relevant platform. Include **Web / Native app** when auditing either implementation.
+3. Select checks marked **All** and checks for the relevant platform. Include **Web / Native app** when auditing either implementation. Run MAT checks for the installed library and platform, then mark irrelevant legacy or migration checks **Not applicable**.
 4. Mark each applicable check **Pass**, **Fail**, **Not applicable**, or **Not tested**. Record an observation, screenshot, measurement, or reason alongside the result.
 5. Collect confirmed defects in the [audit report](07-report/audit-report.md). Use the [GitHub issue template](.github/ISSUE_TEMPLATE/ui-ux-finding.md) when tracking fixes.
 6. Reproduce each fixed issue in the same environment and record the new build and result.
@@ -21,6 +21,9 @@ A reusable audit checklist for websites, native apps, and Figma designs. Each of
 | [Websites and web apps](04-web/checklist.md) | 7 |
 | [Native apps](05-mobile-app/checklist.md) | 7 |
 | [Figma and developer handoff](06-figma/checklist.md) | 7 |
+| [Material Web implementation](10-material-implementation/material-web.md) | 8 |
+| [Android Material implementation](10-material-implementation/android.md) | 8 |
+| [iOS Material implementation](10-material-implementation/ios.md) | 6 |
 
 ## Quick review
 
