@@ -9,7 +9,7 @@ Copy the prompt below and provide this repository or the checklist as a referenc
 > - Primary journey — [user goal and starting point]
 > - Version, languages, and target devices — [if known]
 >
-> Apply the common checks and the checks for the relevant platform from Audit-Checklist.csv. For a Material implementation, identify the installed stack and version before applying MAT checks. Run the main journey and applicable loading, empty, error, and success states. On a working build, test the viewport widths and input methods available to you. When code confirms a cause, provide the file and line.
+> Apply the common checks and the checks for the relevant platform from Audit-Checklist.csv. For a Material implementation, identify the installed stack and version before applying MAT checks. For release candidates, use the applicable REL checks and the conditions in 07-report/release-matrix.md. Run the main journey and applicable loading, empty, error, and success states. On a working build, test the viewport widths and input methods available to you. When code confirms a cause, provide the file and line.
 >
 > For a design file or screenshots, assess visible details and mark build-dependent behavior as Not tested. Record the reason for any blocked check and continue with checks that remain possible.
 >

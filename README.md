@@ -1,6 +1,6 @@
 # PANTIK UI/UX Knowledge Base
 
-A reusable audit checklist for websites, native apps, and Figma designs. Each of the 77 checks has a stable ID, a test method, a suggested fix, and a reference. The original 55 checks keep their IDs. The 22 Material implementation checks use the MAT prefix.
+A reusable audit checklist for websites, native apps, and Figma designs. Each of the 95 checks has a stable ID, a test method, a suggested fix, and a reference. The original 55 checks keep their IDs. The 22 Material implementation checks use the MAT prefix. The 18 release checks use the REL prefix.
 
 ## Run an audit
 
@@ -24,6 +24,10 @@ A reusable audit checklist for websites, native apps, and Figma designs. Each of
 | [Material Web implementation](10-material-implementation/material-web.md) | 8 |
 | [Android Material implementation](10-material-implementation/android.md) | 8 |
 | [iOS Material implementation](10-material-implementation/ios.md) | 6 |
+| [Web release checks](11-release-readiness/web.md) | 8 |
+| [Web accessibility release checks](11-release-readiness/web-accessibility.md) | 2 |
+| [Native app release checks](11-release-readiness/native-apps.md) | 4 |
+| [Figma release and handoff checks](11-release-readiness/figma.md) | 4 |
 
 ## Quick review
 
@@ -31,6 +35,7 @@ Start with UX-01, UX-04, UI-03, UI-08, and A11Y-01. Add A11Y-04, A11Y-05, WEB-01
 
 Use Material 3 as a design-system reference. Apply project-specific visual rules where appropriate. Use WCAG 2.2 AA for web accessibility checks and platform guidance for native apps. Verify runtime behavior on a working build and combine automated checks with manual testing.
 
+- [Release test matrix](07-report/release-matrix.md)
 - [Worked example](07-report/example.md)
 - [Source register](08-sources/sources.md)
 - [Reusable prompt for ChatGPT or Codex](09-codex/run-audit.md)

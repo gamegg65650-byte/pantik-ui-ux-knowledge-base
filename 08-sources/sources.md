@@ -52,3 +52,29 @@ Use the component documentation for the dependency version in the audited build.
 | IT | [Apple Dynamic Type and custom fonts](https://developer.apple.com/documentation/swiftui/applying-custom-fonts-to-text) |
 | IIN | [Apple Accessibility Inspector](https://developer.apple.com/documentation/accessibility/accessibility-inspector) |
 | IRM | [Apple accessibilityReduceMotion](https://developer.apple.com/documentation/swiftui/environmentvalues/accessibilityreducemotion) |
+
+## Release-readiness references
+
+| Code | Source |
+| --- | --- |
+| FOCUS | [W3C Focus Not Obscured](https://www.w3.org/WAI/WCAG22/Understanding/focus-not-obscured-minimum) |
+| HIST | [MDN History API](https://developer.mozilla.org/en-US/docs/Web/API/History_API/Working_with_the_History_API) |
+| OG | [Open Graph protocol](https://ogp.me/) |
+| HTTP404 | [Google Search crawling errors](https://developers.google.com/search/docs/crawling-indexing/troubleshoot-crawling-errors) |
+| LOCALE | [Google localized pages](https://developers.google.com/search/docs/specialty/international/localized-versions) |
+| CANON | [Google canonical URLs](https://developers.google.com/search/docs/crawling-indexing/consolidate-duplicate-urls) |
+| IMG | [web.dev responsive images](https://web.dev/learn/images/descriptive) |
+| LCP | [web.dev LCP optimization](https://web.dev/articles/optimize-lcp) |
+| CLIP | [MDN Clipboard.writeText()](https://developer.mozilla.org/en-US/docs/Web/API/Clipboard/writeText) |
+| CAR | [WAI-ARIA carousel pattern](https://www.w3.org/WAI/ARIA/apg/patterns/carousel/) |
+| MOT | [MDN prefers-reduced-motion](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/At-rules/@media/prefers-reduced-motion) |
+| STATE | [Android Compose state saving](https://developer.android.com/develop/ui/compose/state-saving) |
+| LIST | [Android adaptive list-detail layout](https://developer.android.com/develop/adaptive-apps/guides/list-detail) |
+| ALINK | [Android verified App Links](https://developer.android.com/training/app-links/verify-applinks) |
+| ULINK | [Apple universal links](https://developer.apple.com/documentation/xcode/supporting-universal-links-in-your-app) |
+| XCA | [Apple accessibility audits](https://developer.apple.com/documentation/accessibility/performing-accessibility-audits-for-your-app) |
+| FMODE | [Figma modes for variables](https://help.figma.com/hc/en-us/articles/15343816063383-Modes-for-variables) |
+| FDEV | [Figma Dev Mode guide](https://help.figma.com/hc/en-us/articles/15023124644247-Guide-to-Dev-Mode-in-Figma) |
+| FSTATUS | [Figma Dev Mode statuses](https://help.figma.com/hc/en-us/articles/26781702258583-Dev-Mode-statuses-and-notifications) |
+| FFLOW | [Figma prototype flows](https://help.figma.com/hc/en-us/articles/360039823894-Create-and-manage-prototype-flows) |
+| FPM | [Figma variable modes in prototypes](https://help.figma.com/hc/en-us/articles/15253268379799-Variable-modes-in-prototypes) |
