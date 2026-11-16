@@ -2,6 +2,11 @@
 
 A reusable audit checklist for websites, native apps, and Figma designs. Each of the 95 checks has a stable ID, a test method, a suggested fix, and a reference. The original 55 checks keep their IDs. The 22 Material implementation checks use the MAT prefix. The 18 release checks use the REL prefix.
 
+## Knowledge map and WCAG
+
+- [Knowledge map](KNOWLEDGE-MAP.md) for the complete PANTIK knowledge base.
+- [WCAG 2.2 audit guide](12-wcag/README.md), [criterion index](12-wcag/criteria.md) and [audit CSV](12-wcag/WCAG-2.2-Audit.csv) for 86 active criteria.
+
 ## Run an audit
 
 1. Copy [Audit-Checklist.csv](Audit-Checklist.csv) and open the copy in a spreadsheet editor. Import it as UTF-8 with a comma delimiter if it opens in one column.

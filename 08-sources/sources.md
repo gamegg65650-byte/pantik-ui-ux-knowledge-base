@@ -16,6 +16,8 @@ Sources were reviewed on November 9, 2026 for the original checklist. Check the 
 | IOS | [Apple HIG Accessibility](https://developer.apple.com/design/human-interface-guidelines/accessibility) | Control sizes, text scaling, and accessible interactions. |
 | FG | [Figma Learn](https://help.figma.com/) | Components, variables, Auto Layout, and prototyping. |
 
+See the [W3C WCAG source register](../12-wcag/sources.md) for the versions of the standard, supporting material and translations.
+
 ## Material Components on GitHub
 
 - [Material Components organization](https://github.com/material-components) lists platform implementations. Check each repository's README, archive status, and releases.

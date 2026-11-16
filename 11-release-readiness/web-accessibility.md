@@ -4,6 +4,8 @@
 
 Run applicable checks against the release candidate or the approved design. Record the environment and keep the evidence with the audit report.
 
+For an audit against the full standard, use the [WCAG 2.2 workflow and audit CSV](../12-wcag/README.md).
+
 ## REL-A11Y-01 — Auto-rotating carousel while browsing
 
 - **How to test** — If a carousel rotates automatically, move keyboard focus into it and hover over it. Check the stop control, that it does not resume after focus enters unless the user restarts it, and that slide changes do not displace the active task.

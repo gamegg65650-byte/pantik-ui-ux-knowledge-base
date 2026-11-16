@@ -1,6 +1,6 @@
 # Accessibility
 
-[Start here](../README.md) · [Source register](../08-sources/sources.md)
+[Start here](../README.md) · [Source register](../08-sources/sources.md) · [WCAG 2.2 criterion index](../12-wcag/criteria.md)
 
 ## A11Y-01 — Text contrast
 
